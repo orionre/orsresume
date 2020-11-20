@@ -344,7 +344,7 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 function alertMsge() {
-  var msge = getParameterByName(msge);
+  var msge = getParameterByName('msge');
   if(msge===1){
      window.location.hash = '#contact';
      document.getElementById('id01').style.display='block'
