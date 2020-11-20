@@ -80,7 +80,7 @@ header {
 </head>
 
 
-<body onload="alertMsge();">
+<body onload="modalMsge();">
 
 
 <header id="home">
@@ -333,7 +333,7 @@ function toggleFunction() {
     }
 }
 
-function alertMsge() {
+function modalMsge() {
   url=window.location.href;
   msge=url.split('=')[1];
   if(msge==1){
@@ -341,8 +341,6 @@ function alertMsge() {
      document.getElementById('id01').style.display='block'
   }
 }
-
-
 
 </script>
 
