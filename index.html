@@ -344,11 +344,13 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 function alertMsge() {
-  var msge = getParameterByName('msge');
+ /* https://orionre.github.io/orsresume/?msge=1
   if(msge===1){
      window.location.hash = '#contact';
      document.getElementById('id01').style.display='block'
-  }
+  }*/
+  url= window.location.href;
+  alert(url);
 }
 
 
